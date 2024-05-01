@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import { Bars3CenterLeftIcon } from '@heroicons/react/16/solid'
 
 function Nav() {
     return (
@@ -8,6 +10,13 @@ function Nav() {
                     Angel
                     <span className='text-[30px] md:text-[40px] text-yellow-400'>MIRALLES</span>
                 </div>
+                <ul className='md:flex hidden items-center space-x-10'>
+                    <li><Link href="#" className='nav__link'>Home</Link></li>
+                    <li><Link href="#" className='nav__link'>About</Link></li>
+                    <li><Link href="#" className='nav__link'>Services</Link></li>
+                    <li><Link href="#" className='nav__link'>Contact</Link></li>
+                </ul>
+                <Bars3CenterLeftIcon className='md:hidden w-[2.3rem] h-[2.3rem] text-white rotate-180' />
             </div>
         </div>
     )
