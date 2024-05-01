@@ -12,7 +12,7 @@ function HomePage() {
 
   return (
     <>
-      <div className='overflow-hidden'>
+      <div className='overflow-hidden h-[2000px]'>
         <NavMobile showNav={showNav} closeNav={closeNavHandler} />
         <Nav openNav={openNavHandler} />
       </div>
