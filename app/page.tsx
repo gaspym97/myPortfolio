@@ -1,9 +1,12 @@
+import Nav from '@/components/Nav'
 import React from 'react'
 
 function HomePage() {
   return (
     <>
-      <div className='text-9xl text-red-900'>HomePage</div>
+      <div className='overflow-hidden'>
+        <Nav />
+      </div>
     </>
   )
 }
