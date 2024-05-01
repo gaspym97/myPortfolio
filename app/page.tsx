@@ -1,7 +1,11 @@
-export default function HomePage() {
+import React from 'react'
+
+function HomePage() {
   return (
     <>
-      <h1>hello</h1>
+      <div className='text-9xl text-red-900'>HomePage</div>
     </>
-  );
+  )
 }
+
+export default HomePage
