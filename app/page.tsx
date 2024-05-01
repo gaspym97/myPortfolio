@@ -1,4 +1,5 @@
 "use client"
+import Hero from '@/components/Hero'
 import Nav from '@/components/Nav'
 import NavMobile from '@/components/NavMobile'
 import React, { useState } from 'react'
@@ -15,6 +16,7 @@ function HomePage() {
       <div className='overflow-hidden h-[2000px]'>
         <NavMobile showNav={showNav} closeNav={closeNavHandler} />
         <Nav openNav={openNavHandler} />
+        <Hero />
       </div>
     </>
   )
