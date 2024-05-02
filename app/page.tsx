@@ -3,8 +3,9 @@ import React, { useState } from 'react'
 import NavMobile from '@/components/NavMobile'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
-import Services from '@/components/Services'
 import AboutMe from '@/components/AboutMe'
+import Services from '@/components/Services'
+import Skills from '@/components/Skills'
 
 function HomePage() {
 
@@ -21,6 +22,7 @@ function HomePage() {
         <Hero />
         <AboutMe />
         <Services />
+        <Skills />
       </div>
     </>
   )
