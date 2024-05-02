@@ -22,6 +22,17 @@ function ProjectCard({ image, title, tech1, tech2, tech3, tech4 }: Props) {
                     className='object-contain rounded-xl mx-auto shadow-md'
                 />
             </div>
+            <div>
+                <h1 className='text-[25px] text-white'>{title}</h1>
+                <p className='text-white opacity-65 text-[15px] mt-[1rem]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, doloribus? Vel cupiditate quasi voluptate alias asperiores nemo aut quisquam architecto incidunt, doloremque ipsa beatae quidem, eaque at consequuntur vitae consequatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, dolore.
+                </p>
+                <div className='mt-[1.3rem] grid-cols-2 grid sm:grid-cols-3 xl:grid-cols-4 gap-[2rem]'>
+                    <h1 className='px-6 py-3 bg-white text-black rounded-lg text-center'>{tech1}</h1>
+                    <h1 className='px-6 py-3 bg-blue-700 text-white rounded-lg text-center'>{tech2}</h1>
+                    <h1 className='px-6 py-3 bg-red-700 text-white rounded-lg text-center'>{tech3}</h1>
+                    <h1 className='px-6 py-3 bg-blue-700 text-white rounded-lg text-center'>{tech4}</h1>
+                </div>
+            </div>
         </div>
     )
 }

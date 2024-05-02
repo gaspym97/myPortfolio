@@ -12,10 +12,10 @@ function Project() {
             </div>
             <ProjectCard
                 title="E-Commerce Website"
-                tech1="React"
-                tech2="Next.js"
-                tech3="Tailwind"
-                tech4="TypeScript"
+                tech1="Next.js"
+                tech2="TypeScript"
+                tech3="Nest.js"
+                tech4="Tailwind"
                 image="/images/p1.png"
             />
         </div>

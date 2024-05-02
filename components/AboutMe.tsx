@@ -33,7 +33,7 @@ function AboutMe() {
                 <div className='lg:ml-auto'>
                     <div className='grid grid-cols-1 sm:grid-cols-2 items-center gap-[2rem]'>
                         <div className='p-6 text-center bg-yellow-500'>
-                            <p className='text-[50px] text-black font-bold'>2</p>
+                            <p className='text-[50px] text-black font-bold'>4</p>
                             <p className='text-[20px] text-black font-600'>
                                 Years of experience
                             </p>
@@ -41,19 +41,19 @@ function AboutMe() {
                         <div className='p-6 text-center bg-yellow-500'>
                             <p className='text-[50px] text-black font-bold'>20+</p>
                             <p className='text-[20px] text-black font-600'>
-                                Happy Clients
+                                Something
                             </p>
                         </div>
                         <div className='p-6 text-center bg-yellow-500'>
                             <p className='text-[50px] text-black font-bold'>300+</p>
                             <p className='text-[20px] text-black font-600'>
-                                Proyects Done
+                                Something
                             </p>
                         </div>
                         <div className='p-6 text-center bg-yellow-500'>
                             <p className='text-[50px] text-black font-bold'>3+</p>
                             <p className='text-[20px] text-black font-600'>
-                                Others things
+                                Something
                             </p>
                         </div>
                     </div>
