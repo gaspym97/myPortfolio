@@ -55,14 +55,14 @@ function Skills() {
                         <div>
                             <SkillCard
                                 title='Next.js'
-                                image='/images/next.svg'
+                                image='/images/nextjs-white.svg'
                                 percent='85%'
                             />
                         </div>
                         <div>
                             <SkillCard
-                                title='Node.js'
-                                image='/images/node.svg'
+                                title='Nest.js'
+                                image='/images/nestjs.svg'
                                 percent='50%'
                             />
                         </div>
