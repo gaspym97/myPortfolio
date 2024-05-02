@@ -1,7 +1,8 @@
 "use client"
-import Hero from '@/components/Hero'
-import Nav from '@/components/Nav'
 import NavMobile from '@/components/NavMobile'
+import Nav from '@/components/Nav'
+import Hero from '@/components/Hero'
+import Services from '@/components/Services'
 import React, { useState } from 'react'
 
 function HomePage() {
@@ -17,6 +18,7 @@ function HomePage() {
         <NavMobile showNav={showNav} closeNav={closeNavHandler} />
         <Nav openNav={openNavHandler} />
         <Hero />
+        <Services />
       </div>
     </>
   )
