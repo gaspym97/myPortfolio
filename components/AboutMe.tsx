@@ -18,7 +18,7 @@ function AboutMe() {
                         </div>
                         <div className='flex items-end space-x-4'>
                             <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400' />
-                            <p className='text-[18px] text-white'>Back Development</p>
+                            <p className='text-[18px] text-white'>Backend Development</p>
                         </div>
                         <div className='flex items-end space-x-4'>
                             <CheckIcon className='w-[2rem] h-[2rem] text-yellow-400' />

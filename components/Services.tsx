@@ -14,6 +14,21 @@ function Services() {
                 <div>
                     <ServiceCard title="React Website" num="01" />
                 </div>
+                <div>
+                    <ServiceCard title="Next.js Website" num="02" />
+                </div>
+                <div>
+                    <ServiceCard title="Fullstack Website" num="03" />
+                </div>
+                <div>
+                    <ServiceCard title="APIs" num="04" />
+                </div>
+                <div>
+                    <ServiceCard title="Scalability" num="05" />
+                </div>
+                <div>
+                    <ServiceCard title="Bug Fixing" num="06" />
+                </div>
             </div>
         </div>
     )
