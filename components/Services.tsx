@@ -12,7 +12,7 @@ function Services() {
             </div>
             <div className='pt-[5rem] w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[3rem] items-center'>
                 <div>
-                    <ServiceCard />
+                    <ServiceCard title="React Website" num="01" />
                 </div>
             </div>
         </div>
