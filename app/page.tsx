@@ -7,6 +7,7 @@ import AboutMe from '@/components/AboutMe'
 import Services from '@/components/Services'
 import Skills from '@/components/Skills'
 import Project from '@/components/Project'
+import Footer from '@/components/Footer'
 
 function HomePage() {
 
@@ -25,6 +26,7 @@ function HomePage() {
         <Services />
         <Skills />
         <Project />
+        <Footer />
       </div>
     </>
   )
