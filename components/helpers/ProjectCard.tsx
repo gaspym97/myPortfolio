@@ -30,7 +30,7 @@ function ProjectCard({ image, title, tech1, tech2, tech3, tech4 }: Props) {
                     <h1 className='px-6 py-3 bg-white text-black rounded-lg text-center'>{tech1}</h1>
                     <h1 className='px-6 py-3 bg-blue-700 text-white rounded-lg text-center'>{tech2}</h1>
                     <h1 className='px-6 py-3 bg-red-700 text-white rounded-lg text-center'>{tech3}</h1>
-                    <h1 className='px-6 py-3 bg-blue-700 text-white rounded-lg text-center'>{tech4}</h1>
+                    <h1 className='px-6 py-3 bg-[#35BDF9] text-black rounded-lg text-center'>{tech4}</h1>
                 </div>
             </div>
         </div>
